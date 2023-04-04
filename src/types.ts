@@ -7,10 +7,11 @@ export type Character = {
     dps?: {
       dps1: string
     }, 
-    caster: {
+    caster?: {
       caster1: string
       caster2: string
       caster3: string
       caster4: string
     }
   }
+

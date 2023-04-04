@@ -1,4 +1,4 @@
-import { Character } from "./characterTypes";
+import { Character } from "./types";
 
 export const characters: Character[] = [{
     tank: {

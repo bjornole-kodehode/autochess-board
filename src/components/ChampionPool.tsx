@@ -5,9 +5,9 @@ export default function ChampionPool() {
     for (const character of characters) {
       for (const role of Object.values(character)) {
         for (const image of Object.values(role)) {
-          if (image.endsWith(".png")) {
+          /* if (image.endsWith(".png")) { */
             characterImgs.push(image)
-          }
+          /* } */
         }
       }
     }
