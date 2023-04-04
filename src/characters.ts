@@ -2,16 +2,16 @@ import { Character } from "./types";
 
 export const characters: Character[] = [{
     tank: {
-      tank1: "../public/green.png",
-      tank2: "../public/orange.png",
-      tank3: "../public/three-eye.png",
+      tank1: "/green.png",
+      tank2: "/orange.png",
+      tank3: "/three-eye.png",
     }, dps: {
-      dps1: "../public/happy.png",
+      dps1: "/happy.png",
     }, caster: {
-      caster1: "../public/orange-pink-hat.png",
-      caster2: "../public/blue-hat.png",
-      caster3: "../public/smirk.png",
-      caster4: "../public/unicorn.png"
+      caster1: "/orange-pink-hat.png",
+      caster2: "/blue-hat.png",
+      caster3: "/smirk.png",
+      caster4: "/unicorn.png"
     }
   },
  
