@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.characters {
+  display: grid;
+  grid-template-columns: repeat(7, 25px);
+  gap: 50px;
+}
+.character-img {
+  /* background: red;
+  -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%); */
+  cursor: grab;
+}
